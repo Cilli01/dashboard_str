@@ -45,8 +45,6 @@ Esta página fornece uma visão detalhada e personalizável dos dados de vendas,
 git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 cd NOME-DO-REPOSITORIO
 
-
-
 # Criar ambiente virtual (opcional, mas recomendado)
 python -m venv venv
 source venv/bin/activate    # Linux/Mac
@@ -55,12 +53,26 @@ venv\Scripts\activate       # Windows
 # Instalar dependências
 pip install -r requirements.txt
 
+Executar o aplicativo Streamlit
+streamlit run Dashboard.py
+
+Após executar o comando acima, o navegador abrirá automaticamente o dashboard na URL:
+
+http://localhost:8501
+
 📁 Projeto-Dashboard-Vendas/
 │
 ├── Dashboard.py           # Página principal do dashboard
 ├── Dados brutos.py        # Página com os dados filtráveis e download
 ├── requirements.txt       # Dependências do projeto
 └── README.md              # Documentação do projeto
+
+Fonte de Dados
+
+Os dados são obtidos a partir da API pública:
+
+https://labdados.com/produtos
+
 ```bash
 
 Autor
