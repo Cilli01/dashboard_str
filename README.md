@@ -41,7 +41,7 @@ Esta página fornece uma visão detalhada e personalizável dos dados de vendas,
 ## ⚙️ Instalação e Execução Local
 
 ### **Clonar o repositório**
-
+```bash
 git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 cd NOME-DO-REPOSITORIO
 
