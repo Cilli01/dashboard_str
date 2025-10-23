@@ -73,8 +73,6 @@ Os dados são obtidos a partir da API pública:
 
 https://labdados.com/produtos
 
-```bash
-
 Autor
 
 Caio Cesar
